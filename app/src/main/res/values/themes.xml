@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MushroomManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--
+        <style name="dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+            <item name="android:windowBackground">@drawable/rounded_dialog</item>
+            <item name="android:windowMinWidthMinor">85%</item>
+            <item name="android:windowAnimationStyle">@style/animation</item>
+        </style>
+
+        <style name="animation">
+            <item name="android:windowEnterAnimation">@anim/slide_scale_in</item>
+            <item name="android:windowExitAnimation">@anim/slide_scale_out</item>
+        </style>
+    -->
+</resources>

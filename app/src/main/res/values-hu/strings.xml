@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_as_guest">Bejelentkezés vendégként</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="welcomeMessage">Üdvüzlünk a Gombakeresőben!</string>
+    <string name="app_name">Mushroom Finder</string>
+    <string name="username">Felhasználónév</string>
+    <string name="email">Email</string>
+    <string name="password">Jelszó</string>
+    <string name="register">Regisztráció</string>
+    <string name="confirm_password">Jelszó mégegyszer</string>
+    <string name="attentionMessage" >Figyelem! Az applikáció nem egy hivatalos gombaellenőrző. Mindenképpen vizsgáltasd ki egy szakértővel a gombát!</string>
+    <string name="cancel">Mégse</string>
+    <string name="Change_password">Jelszóváltoztatás</string>
+    <string name="new_Password">Új jelszó</string>
+    <string name="confirm_new_password">Új jelszó megerősítése</string>
+    <string name="what_kinf_of_mushroom">Milyen fajta gombát találtál?</string>
+    <string name="mushroom_type">Gomba típusa</string>
+    <string name="where">Hol találtad?</string>
+    <string name="upload_image">kép feltöltése</string>
+    <string name="save">mentés</string>
+    <string name="all_mushroom">összes gomba</string>
+    <string name="dont_have">Nincs még felhasználód?</string>
+    <string name="SignUp">Regisztráció</string>
+    <string name="Logout">Kijelentkezés</string>
+    <string name="Personal_data">Személyes adatok</string>
+    <string name="Found_a_mushroom">Gombát találtam</string>
+    <string name="explore">Felfedezés</string>
+    <string name="own_mushrooms">Saját gombák</string>
+    <string name="mushroom_spot">Gomba helye:</string>
+    <string name="back">vissza</string>
+    <string name="Confirm">Elfogad</string>
+    <string name="Reject">Elutasít</string>
+    <string name="change_password">jelszóváltoztatás</string>
+    <string name="already_have">Már regisztráltál? Bejelentkezés</string>
+    <string name="delete_ticket">Delete Ticket</string>
+    <string name="mushroom_expert">Gomba szakértő</string>
+    <string name="mushroom_expert_popup_message">Ha Gomba Szakértő vgay írd be az azonosítód</string>
+    <string name="id_placeholder">Gomba szakértő azonosító</string>
+    <string name="nope">nem</string>
+    <string name="yes_i_am">Igen az vagyok</string>
+
+
+</resources>

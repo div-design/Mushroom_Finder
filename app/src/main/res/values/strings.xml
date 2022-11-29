@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="login_as_guest">Login as guest</string>
+    <string name="login">login</string>
+    <string name="registration">Registration</string>
+    <string name="welcomeMessage">Welcome to Mushroom Finder!</string>
+    <string name="app_name">Mushroom Finder</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="attentionMessage" >Important! The application is not an official mushroom checker. Be sure to have the mushroom examined by an expert!</string>
+    <string name="cancel">Cancel</string>
+    <string name="Change_password">change password</string>
+    <string name="new_Password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="what_kinf_of_mushroom">What kind of mushroom did you find?</string>
+    <string name="mushroom_type">mushroom type</string>
+    <string name="where">Where did you find?</string>
+    <string name="upload_image">upload image</string>
+    <string name="save">save</string>
+    <string name="all_mushroom">all mushroom</string>
+    <string name="dont_have">Don\'t have an Account?</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Logout">Logout</string>
+    <string name="Personal_data">Personal data</string>
+    <string name="Found_a_mushroom">Found a mushroom</string>
+    <string name="explore">Explore</string>
+    <string name="own_mushrooms">Own Mushrooms</string>
+    <string name="mushroom_spot">Mushroom Spot:</string>
+    <string name="back">back</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Reject">Reject</string>
+    <string name="change_password">change password</string>
+    <string name="already_have">Already Have an Account? Log in</string>
+    <string name="delete_ticket">Delete Ticket</string>
+    <string name="mushroom_expert">Mushroom Expert</string>
+    <string name="mushroom_expert_popup_message">If you are a Mushroom Expert write your ID</string>
+    <string name="id_placeholder">Mushroom Expert ID</string>
+    <string name="nope">nope</string>
+    <string name="yes_i_am">Yes I am</string>
+
+
+</resources>

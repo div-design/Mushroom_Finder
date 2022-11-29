@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389251737570",
+    "project_id": "mushroom-manager",
+    "storage_bucket": "mushroom-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389251737570:android:f2497721666825ec95fbbb",
+        "android_client_info": {
+          "package_name": "com.example.mushroommanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389251737570-pcn5io5ve7eci01b0427i9an9mnkpv5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_tCfP6OT8Wq8etnTZCbrrmwx2GJ4jFwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389251737570-pcn5io5ve7eci01b0427i9an9mnkpv5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorRedDark"
+    tools:context=".UserDashboardActivity">
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textAlignment="center"
+        android:textColor="#464654"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/expertType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:textColor="#464654"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/createTicket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expertType"
+        app:layout_constraintVertical_bias="0.110000014"
+        app:srcCompat="@drawable/profile_pic_placeholder" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/colorRedLight"
+        android:text="@string/Logout"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/changeData"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="@color/colorBlueLight"
+        android:text="@string/Personal_data"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="@+id/logoutBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/logoutBtn" />
+
+    <Button
+        android:id="@+id/createTicket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:backgroundTint="@color/colorRedDark"
+        android:text="@string/Found_a_mushroom"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ticketsList"
+        app:layout_constraintEnd_toEndOf="@+id/ticketsList"
+        app:layout_constraintStart_toStartOf="@+id/ticketsList" />
+
+    <Button
+        android:id="@+id/ticketsList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:backgroundTint="@color/colorBlueDark"
+        android:text="@string/explore"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ownTicketsList"
+        app:layout_constraintEnd_toEndOf="@+id/ownTicketsList"
+        app:layout_constraintStart_toStartOf="@+id/ownTicketsList" />
+    <Button
+        android:id="@+id/ticketsList2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:height="80dp"
+        android:backgroundTint="@color/colorBlueDark"
+        android:text="@string/explore"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="@+id/logoutBtn"
+        app:layout_constraintStart_toStartOf="@+id/logoutBtn" />
+
+    <Button
+        android:id="@+id/ownTicketsList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:height="40dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/own_mushrooms"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/changeData"
+        app:layout_constraintEnd_toEndOf="@+id/changeData"
+        app:layout_constraintStart_toStartOf="@+id/changeData" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
